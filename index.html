@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8"/>
   <title>Triângulos</title>
-  <link rel="stylesheet" type="text/css" href="tri.css"/>
   <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <script>      
       function draw() {
@@ -15,28 +14,42 @@
         ctx.lineTo(10,70);
         ctx.lineTo(90,70);
         ctx.lineTo(50,10);
-        ctx.stroke();
+        ctx.fillStyle = "green";
+        ctx.fill();
 
         ctx.beginPath();
-        ctx.moveTo(93,10);
+        ctx.moveTo(130,10);
         ctx.lineTo(93,70);
         ctx.lineTo(93,70);
-        ctx.lineTo(93,10);
-        ctx.stroke();
+        ctx.lineTo(55,10);
+        ctx.lineTo(130,10);
+        ctx.fillStyle = "orange";
+        ctx.fill();
 
         ctx.beginPath();
         ctx.moveTo(135,10);
         ctx.lineTo(175,70);
         ctx.lineTo(95,70);
         ctx.lineTo(135,10);
-        ctx.stroke();
+        ctx.fillStyle = "green";
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(210,10);
+        ctx.lineTo(177,70);
+        ctx.lineTo(177,70);
+        ctx.lineTo(140,10);
+        ctx.lineTo(210,10);
+        ctx.fillStyle = "orange";
+        ctx.fill();
 
         ctx.beginPath();
         ctx.moveTo(215,10);
         ctx.lineTo(260,70);
         ctx.lineTo(180,70);
         ctx.lineTo(215,10);
-        ctx.stroke();
+        ctx.fillStyle = "green";
+        ctx.fill();
         }
       }
     </script>
