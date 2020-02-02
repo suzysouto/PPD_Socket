@@ -11,11 +11,11 @@ function draw() {
         ctx.fill();
 
         ctx.beginPath();
-        ctx.moveTo(630,10);
-        ctx.lineTo(593,70);
-        ctx.lineTo(593,70);
-        ctx.lineTo(555,10);
-        ctx.lineTo(630,10);
+        ctx.moveTo(635,10);
+        ctx.lineTo(595,70);
+        ctx.lineTo(590,70);
+        ctx.lineTo(550,10);
+        ctx.lineTo(635,10);
         ctx.fillStyle = "orange";
         ctx.fill();
 
@@ -28,11 +28,11 @@ function draw() {
         ctx.fill();
 
         ctx.beginPath();
-        ctx.moveTo(710,10);
-        ctx.lineTo(677,70);
-        ctx.lineTo(677,70);
-        ctx.lineTo(640,10);
-        ctx.lineTo(710,10);
+        ctx.moveTo(715,10);
+        ctx.lineTo(680,70);
+        ctx.lineTo(674,70);
+        ctx.lineTo(635,10);
+        ctx.lineTo(715,10);
         ctx.fillStyle = "orange";
         ctx.fill();
 
